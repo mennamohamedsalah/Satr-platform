@@ -557,12 +557,13 @@ font-size: 28px;
             color: #00adbb;  
             position: relative;
             padding-top: 10%;
+            margin-bottom: 10%;
             margin-left: 32%;
         }
         }
         @media only screen and (min-width:700px) and (max-width:1100px){
             .cards{
-                margin-top: 8%;
+                margin-top: 12%;
             }
             }
 .card5{
@@ -866,7 +867,8 @@ font-size: 28px;
         .h2section6{
             text-align: center;
             margin-top: 170%;
-            margin-left: -115%;
+            margin-left: -150%;
+            margin-right: -30%;
             font-weight: 600;
             font-size: 20px;
             font-family: 'Almarai', sans-serif;
@@ -922,11 +924,11 @@ font-size: 28px;
 @media only screen and (min-width:300px) and (max-width:700px){
     .but1{
         margin-top: 10%;
-        margin-left: -50%;
+        margin-left: -70%;
         background-color: #00a8be;
         color: #ffffff;
         border: none;
-        width: 100%;
+        width: 120%;
         font-size: 13px;
         padding: 10px;
         border-radius: 5px;
@@ -1323,7 +1325,7 @@ font-size: 55px;
 @media only screen and (min-width:300px) and (max-width:700px){
     .FormLabel2{
         text-align: end;
-        margin-left: 10%;
+        margin-left: 4%;
         margin-top: 3%;
         color: #000;
         font-size: 15px;
@@ -1338,7 +1340,7 @@ font-size: 55px;
 }
 @media only screen and (min-width:300px) and (max-width:700px){
     .form-new .Formcontrol2{
-        width: 180%;
+        width: 160%;
         margin-top: 25%;
     }
     }
@@ -1356,7 +1358,7 @@ font-size: 55px;
 @media only screen and (min-width:300px) and (max-width:700px){
     .FormLabel3{
         text-align: end;
-        margin-left: 17%;
+        margin-left: 12%;
         margin-top: 1%;
         color: #000;
         font-size: 15px;
@@ -1371,7 +1373,7 @@ font-size: 55px;
 }
 @media only screen and (min-width:300px) and (max-width:700px){
     .form-new .Formcontrol3{
-        width: 180%;
+        width: 160%;
         margin-top: 20%;
     }
     }
@@ -1404,7 +1406,7 @@ font-size: 55px;
 @media only screen and (min-width:300px) and (max-width:700px){
     .FormLabel4{
         text-align: end;
-        margin-left: 11%;
+        margin-left: 5%;
         margin-top: 1%;
         color: #000;
         font-size: 15px;
@@ -1419,7 +1421,7 @@ font-size: 55px;
 }
 @media only screen and (min-width:300px) and (max-width:700px){
     .form-new .Formcontrol4{
-        width: 180%;
+        width: 160%;
         margin-top: 20%;
     }
     }
@@ -1435,7 +1437,7 @@ font-size: 55px;
 @media only screen and (min-width:300px) and (max-width:700px){
     .FormLabel5{
         text-align: end;
-        margin-left: 16%;
+        margin-left: 10%;
         margin-top: 1%;
         color: #000;
         font-size: 15px;
@@ -1450,7 +1452,7 @@ font-size: 55px;
 }
 @media only screen and (min-width:300px) and (max-width:700px){
     .form-new .Formcontrol5{
-        width: 180%;
+        width: 160%;
         margin-top: 20%;
     }
     }
@@ -1466,7 +1468,7 @@ font-size: 55px;
 @media only screen and (min-width:300px) and (max-width:700px){
     .FormLabel6{
         text-align: end;
-        margin-left: 11%;
+        margin-left: 2%;
         margin-top: 1%;
         color: #000;
         font-size: 15px;
@@ -1481,7 +1483,7 @@ font-size: 55px;
 }
 @media only screen and (min-width:300px) and (max-width:700px){
     .form-new .Formcontrol6{
-        width: 180%;
+        width: 160%;
         margin-top: 20%;
     }
     }

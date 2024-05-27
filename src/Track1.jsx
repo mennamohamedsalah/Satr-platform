@@ -44,7 +44,6 @@ const Track1 = () => {
                     </div>
 
 
-                    <Button>mmmmm</Button>
 
                 </Col>
             </Row>

@@ -34,26 +34,21 @@ function NavBar(props) {
 
           <Nav className="me-auto">
 
-            <Nav.Link href="#home">المساحات</Nav.Link>
+            <Nav.Link href="/Tracks">المساحات</Nav.Link>
 
-            <Nav.Link href="#link">المحتوى المقروء</Nav.Link>
+            <Nav.Link href="/Tracks">المحتوى المقروء</Nav.Link>
 
 
             <NavDropdown title="منصاتنا" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">منصة كودرهب</NavDropdown.Item>
+              <NavDropdown.Item href="/Tracks">منصة كودرهب</NavDropdown.Item>
 
               <NavDropdown.Divider />
 
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/Tracks">
                 منصة المبادرات والمعسكرات
               </NavDropdown.Item>
 
 
-              {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item> */}
             </NavDropdown>
 
 
@@ -64,16 +59,14 @@ function NavBar(props) {
 
               <NavDropdown.Divider />
 
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/Tracks">
                 الدورات
               </NavDropdown.Item>
 
               <NavDropdown.Divider />
 
-              <NavDropdown.Item href="#action/3.3">المشاريع التطبيقية</NavDropdown.Item>
-              {/* <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item> */}
+              <NavDropdown.Item href="/Tracks">المشاريع التطبيقية</NavDropdown.Item>
+
             </NavDropdown>
 
 
