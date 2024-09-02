@@ -185,7 +185,7 @@ const Tracks = () => {
 <HashLink to="/Track1" className='hashtrack' >
   <Card.Body   className='card41'>
     <Card.Title     className='Title-card11'>  
-مسار Full-Stack JavaScript </Card.Title>
+ Full-Stack JavaScript مسار </Card.Title>
     <Card.Text    className='Text-card11'>
     سيأخذك هذا المسار في رحلة تتعلم من خلالها تطوير وبناء تطبيقات ويب تفاعلية متكاملة، تبدأ رحلتك بتعلم أساسيات البرمجة بلغة JavaScript ثم ستتعرف على ط... 
     </Card.Text>

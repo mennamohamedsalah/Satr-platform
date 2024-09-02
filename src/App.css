@@ -135,6 +135,13 @@ text-align: end;
 margin-top: 12%;
 margin-right: 8%;
 }
+@media only screen and (min-width:412px) and (max-width:915px){
+    .text1{
+        text-align: center;
+        margin-top: 5%;
+        margin-left: 9%;
+        }
+    }
 @media only screen and (min-width:300px) and (max-width:700px){
     .text1{
         text-align: center;
@@ -281,7 +288,23 @@ margin-top: 5%;
     padding: 40px;
     position: relative;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .divcolall{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 8%;
+        margin-left: -1%;
+        width: 102%;
+        height: 150px;
+        background-color: #ffffff;
+        border: 1px solid #00a8be;
+        border-radius: 20px;
+        padding: 40px;
+        position: relative;
+    }
+    }
+@media only screen and (min-width:480px) and (max-width:700px){
     .divcolall{
         display: flex;
         justify-content: space-between;
@@ -315,8 +338,12 @@ margin-top: 5%;
         }
 .number{
     font-weight: 600;
+    justify-content: space-between;
+    width: 120%;
 }
-
+.number p{
+    width: 150%;
+}
                                                       /* {//section3//} */
 
 .section3{
@@ -389,14 +416,22 @@ font-size: 28px;
     margin-left: 43.5%;
 }
 
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
     .import{
         color: #00adbb;  
         position: relative;
         margin-top: 10%;
-        margin-left: 30%;
+        margin-left: 25%;
     }
     }
+    @media only screen and (min-width:480px) and (max-width:700px){
+        .import{
+            color: #00adbb;  
+            position: relative;
+            margin-top: 10%;
+            margin-left: 30%;
+        }
+        }
     @media only screen and (min-width:700px) and (max-width:1100px){
         .import{
             color: #00adbb;  
@@ -541,17 +576,28 @@ font-size: 28px;
     padding-top: 10%;
     margin-left: 39%;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
     .contant{
         color: #00adbb;  
         position: relative;
         padding-top: 28%;
-        margin-left: 30%;
+        margin-left: 10%;
         font-weight: 600;
         font-size: 24px;
         font-family: DINNextLTArabic, Cairo, sans-serif !important;
     }
     }
+    @media only screen and (min-width:480px) and (max-width:700px){
+        .contant{
+            color: #00adbb;  
+            position: relative;
+            padding-top: 28%;
+            margin-left: 30%;
+            font-weight: 600;
+            font-size: 24px;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
     @media only screen and (min-width:700px) and (max-width:1100px){
         .contant{
             color: #00adbb;  
@@ -614,15 +660,24 @@ font-size: 28px;
     width: 47px;
     right: -5%;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
     .icon3card{
         position: absolute;
-        top: 70px;
+        top: 35px;
         height: 47px;
         width: 47px;
         right: 18%;
     }
     }
+    @media only screen and (min-width:480px) and (max-width:700px){
+        .icon3card{
+            position: absolute;
+            top: 70px;
+            height: 47px;
+            width: 47px;
+            right: 18%;
+        }
+        }
     @media only screen and (min-width:700px) and (max-width:1100px){
         .icon3card{
             position: absolute;
@@ -694,15 +749,25 @@ font-size: 28px;
     width: 47px;
     right: -45%;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
     .icon2card{
         position: absolute;
-        top: 70px;
+        top: 35px;
         height: 47px;
         width: 47px;
         right: 18%;
     }
     }
+    @media only screen and (min-width:480px) and (max-width:700px){
+        .icon2card{
+            position: absolute;
+            top: 70px;
+            height: 47px;
+            width: 47px;
+            right: 18%;
+        }
+        }
+    
     @media only screen and (min-width:700px) and (max-width:1100px){
         .icon2card{
             position: absolute;
@@ -774,15 +839,24 @@ font-size: 28px;
     width: 47px;
     right: -90%;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
     .icon1card{
         position: absolute;
-        top: 70px;
+        top: 35px;
         height: 47px;
         width: 47px;
         right: 18%;
     }
     }
+    @media only screen and (min-width:480px) and (max-width:700px){
+        .icon1card{
+            position: absolute;
+            top: 70px;
+            height: 47px;
+            width: 47px;
+            right: 18%;
+        }
+        }
     @media only screen and (min-width:700px) and (max-width:1100px){
         .icon1card{
             position: absolute;
@@ -851,6 +925,7 @@ font-size: 28px;
             margin-left: 5%;
         }
         }
+
 .h2section6{
     text-align: end;
     margin-top: 18%;
@@ -863,12 +938,13 @@ font-size: 28px;
     font-family: 'Tajawal', sans-serif;
     }
 
-    @media only screen and (min-width:300px) and (max-width:700px){
+    @media only screen and (min-width:300px) and (max-width:480px){
         .h2section6{
             text-align: center;
             margin-top: 170%;
-            margin-left: -150%;
-            margin-right: -30%;
+            width: 250%;
+            margin-left: -130%;
+            /* margin-right: -30%; */
             font-weight: 600;
             font-size: 20px;
             font-family: 'Almarai', sans-serif;
@@ -876,6 +952,45 @@ font-size: 28px;
             font-family: 'Tajawal', sans-serif;
             }
         }
+        @media only screen and (min-width:412px) and (max-width:915px){
+            .h2section6{
+                text-align: center;
+                margin-top: 170%;
+                margin-left: -135%;
+                /* margin-right: -30%; */
+                font-weight: 600;
+                font-size: 20px;
+                font-family: 'Almarai', sans-serif;
+                font-family: 'Cairo', sans-serif;
+                font-family: 'Tajawal', sans-serif;
+                }
+            }
+        @media only screen and (min-width:480px) and (max-width:700px){
+            .h2section6{
+                text-align: center;
+                margin-top: 170%;
+                margin-left: -150%;
+                margin-right: -30%;
+                font-weight: 600;
+                font-size: 20px;
+                font-family: 'Almarai', sans-serif;
+                font-family: 'Cairo', sans-serif;
+                font-family: 'Tajawal', sans-serif;
+                }
+            }
+            @media only screen and (min-width:810px) and (max-width:1080px){
+                .h2section6{
+                    text-align: center;
+                    margin-top: 170%;
+                    margin-left: -135%;
+                    margin-left: -25%;
+                    font-weight: 600;
+                    font-size: 20px;
+                    font-family: 'Almarai', sans-serif;
+                    font-family: 'Cairo', sans-serif;
+                    font-family: 'Tajawal', sans-serif;
+                    }
+                }
         @media only screen and (min-width:700px) and (max-width:1100px){
             .h2section6{
                 text-align: center;
@@ -889,6 +1004,20 @@ font-size: 28px;
                 font-family: 'Tajawal', sans-serif;
                 }
             }
+            @media only screen and (min-width:800px) and (max-width:1280px){
+                .h2section6{
+                    text-align: center;
+                    margin-top: 18%;
+                    font-weight: 500;
+                    margin-left: 10%;
+                    font-weight: 600;
+                    font-size: 22px;
+                    font-family: 'Almarai', sans-serif;
+                    font-family: 'Cairo', sans-serif;
+                    font-family: 'Tajawal', sans-serif;
+                    }
+                }
+
 
 .calltoaction{
     margin-left: 20%;
@@ -921,7 +1050,24 @@ font-size: 28px;
     font-family: 'Cairo', sans-serif;
     font-family: 'Tajawal', sans-serif;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .but1{
+        margin-top: 10%;
+        margin-left: -100%;
+        background-color: #00a8be;
+        color: #ffffff;
+        border: none;
+        width: 180%;
+        font-size: 13px;
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: 600;
+        font-family: 'Almarai', sans-serif;
+        font-family: 'Cairo', sans-serif;
+        font-family: 'Tajawal', sans-serif;
+    }
+    }
+@media only screen and (min-width:480px) and (max-width:700px){
     .but1{
         margin-top: 10%;
         margin-left: -70%;
@@ -1101,7 +1247,17 @@ font-size: 28px;
     font-weight: 550;
     border-radius: 10px;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .div-Features  .Card-Features   .Button-Text{
+        padding: 8px;
+        width: 50%;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 10px;
+        font-family: DINNextLTArabic, Cairo, sans-serif !important;
+    }
+    }
+@media only screen and (min-width:480px) and (max-width:700px){
     .div-Features  .Card-Features   .Button-Text{
         padding: 8px;
         width: 40%;
@@ -1125,8 +1281,30 @@ font-size: 28px;
         background-color: #00adbb;
         margin-top: 60%;
 }
-
-
+    @media only screen and (min-width:360px) and (max-width:800px){
+        .section77{
+            background-color: #00adbb;
+            margin-top: 75%;
+    }
+        }
+        @media only screen and (min-width:384px) and (max-width:854px){
+            .section77{
+                background-color: #00adbb;
+                margin-top: 80%;
+        }
+            }
+        @media only screen and (min-width:412px) and (max-width:915px){
+            .section77{
+                background-color: #00adbb;
+                margin-top: 90%;
+        }
+            }
+            @media only screen and (min-width:800px) and (max-width:1280px){
+                .section77{
+                    background-color: #00adbb;
+                    margin-top: 95%;
+            }
+                }
 
                                                /* //New// */
 
@@ -1137,9 +1315,10 @@ font-size: 28px;
 @media only screen and (min-width:300px) and (max-width:700px){
     .colnew{
         background-color: #ffffff;
-        height: 00px;
+        height: 0px;
     }
     }
+
 .logo-pattren{
     margin-top: 53%;
     margin-left: -5%;
@@ -1156,7 +1335,16 @@ font-size: 28px;
     position: absolute;
     justify-content: space-between;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .hsnew{
+        display: flex;
+        margin-top: 28%;
+        margin-left: 15%;
+        position: absolute;
+        justify-content: space-between;
+    }
+    }
+@media only screen and (min-width:480px) and (max-width:700px){
     .hsnew{
         display: flex;
         margin-top: 28%;
@@ -1294,6 +1482,28 @@ font-size: 55px;
         font-family: DINNextLTArabic, Cairo, sans-serif !important;
     }
     }
+    @media only screen and (min-width:810px) and (max-width:1080px){
+        .p-form{
+            color: rgb(156 163 175 );
+            margin-top: 10%;
+            margin-left: 80%;
+            width: 60%;
+            font-size: 13px;
+            font-weight: 600;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:800px) and (max-width:1280px){
+            .p-form{
+                color: rgb(156 163 175 );
+                margin-top: 10%;
+                margin-left: 80%;
+                width: 60%;
+                font-size: 13px;
+                font-weight: 600;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
 .form-new  .FormLabel1{
     text-align: end;
     margin-left: 70%;
@@ -1302,7 +1512,17 @@ font-size: 55px;
     font-size: 15px;
     font-weight: bolder;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .form-new  .FormLabel1{
+        text-align: end;
+        margin-top: 2%;
+        color: #000;
+        font-size: 14px;
+        font-weight: bolder;
+        font-family: DINNextLTArabic, Cairo, sans-serif !important;
+    }
+    }
+@media only screen and (min-width:480px) and (max-width:700px){
     .form-new  .FormLabel1{
         text-align: end;
         margin-left: 78%;
@@ -1313,6 +1533,50 @@ font-size: 55px;
         font-family: DINNextLTArabic, Cairo, sans-serif !important;
     }
     }
+    @media only screen and (min-width:384px) and (max-width:854px){
+        .form-new  .FormLabel1{
+            text-align: end;
+            margin-left: 74%;
+            margin-top: 2%;
+            color: #000;
+            font-size: 14px;
+            font-weight: bolder;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+    @media only screen and (min-width:412px) and (max-width:915px){
+        .form-new  .FormLabel1{
+            text-align: end;
+            margin-left: 75%;
+            margin-top: 2%;
+            color: #000;
+            font-size: 14px;
+            font-weight: bolder;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:810px) and (max-width:1080px){
+            .form-new  .FormLabel1{
+                text-align: end;
+                margin-left: 70%;
+                margin-top: 2%;
+                color: #000;
+                font-size: 14px;
+                font-weight: bolder;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
+            @media only screen and (min-width:800px) and (max-width:1280px){
+                .form-new  .FormLabel1{
+                    text-align: end;
+                    margin-left: 70%;
+                    margin-top: 2%;
+                    color: #000;
+                    font-size: 14px;
+                    font-weight: bolder;
+                    font-family: DINNextLTArabic, Cairo, sans-serif !important;
+                }
+                }
 .FormLabel2{
     text-align: end;
     margin-left: -7.5%;
@@ -1322,7 +1586,68 @@ font-size: 55px;
     position: absolute;
     font-weight: bolder;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+
+@media only screen and (min-width:300px) and (max-width:480px){
+    .FormLabel2{
+        text-align: end;
+        margin-left: -25%;
+        margin-top: 3%;
+        color: #000;
+        font-size: 15px;
+        position: absolute;
+        font-weight: bolder;
+        font-family: DINNextLTArabic, Cairo, sans-serif !important;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .FormLabel2{
+            text-align: end;
+            margin-left: -11%;
+            margin-top: 3%;
+            color: #000;
+            font-size: 15px;
+            position: absolute;
+            font-weight: bolder;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:384px) and (max-width:854px){
+            .FormLabel2{
+                text-align: end;
+                margin-left: -5%;
+                margin-top: 3%;
+                color: #000;
+                font-size: 15px;
+                position: absolute;
+                font-weight: bolder;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
+    @media only screen and (min-width:412px) and (max-width:915px){
+        .FormLabel2{
+            text-align: end;
+            margin-left: 1%;
+            margin-top: 3%;
+            color: #000;
+            font-size: 15px;
+            position: absolute;
+            font-weight: bolder;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:810px) and (max-width:7080px){
+            .FormLabel2{
+                text-align: end;
+                margin-left: -1%;
+                margin-top: 3%;
+                color: #000;
+                font-size: 15px;
+                position: absolute;
+                font-weight: bolder;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
+@media only screen and (min-width:480px) and (max-width:700px){
     .FormLabel2{
         text-align: end;
         margin-left: 4%;
@@ -1338,13 +1663,42 @@ font-size: 55px;
     width: 118%;
     margin-top: 25%;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .form-new .Formcontrol2{
+        width: 118%;
+        margin-top: 25%;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .form-new .Formcontrol2{
+            width: 133%;
+            margin-top: 25%;
+        }
+        }
+        @media only screen and (min-width:384px) and (max-width:854px){
+            .form-new .Formcontrol2{
+                width: 140%;
+                margin-top: 25%;
+            }
+            }
+    @media only screen and (min-width:412px) and (max-width:915px){
+        .form-new .Formcontrol2{
+            width: 152%;
+            margin-top: 25%;
+        }
+        }
+@media only screen and (min-width:480px) and (max-width:700px){
     .form-new .Formcontrol2{
         width: 160%;
         margin-top: 25%;
     }
     }
-
+    @media only screen and (min-width:810px) and (max-width:1080px){
+        .form-new .Formcontrol2{
+            width: 145%;
+            margin-top: 25%;
+        }
+        }
 .FormLabel3{
     text-align: end;
     margin-left: 70%;
@@ -1355,7 +1709,55 @@ font-size: 55px;
     position: absolute;
     margin-left: -3.5%;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .FormLabel3{
+        text-align: end;
+        margin-left: -12%;
+        margin-top: 1%;
+        color: #000;
+        font-size: 15px;
+        position: absolute;
+        font-weight: bolder;
+        font-family: DINNextLTArabic, Cairo, sans-serif !important;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .FormLabel3{
+            text-align: end;
+            margin-left: -2%;
+            margin-top: 1%;
+            color: #000;
+            font-size: 15px;
+            position: absolute;
+            font-weight: bolder;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:384px) and (max-width:854px){
+            .FormLabel3{
+                text-align: end;
+                margin-left: 2%;
+                margin-top: 1%;
+                color: #000;
+                font-size: 15px;
+                position: absolute;
+                font-weight: bolder;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
+    @media only screen and (min-width:412px) and (max-width:915px){
+        .FormLabel3{
+            text-align: end;
+            margin-left: 8%;
+            margin-top: 1%;
+            color: #000;
+            font-size: 15px;
+            position: absolute;
+            font-weight: bolder;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+@media only screen and (min-width:480px) and (max-width:700px){
     .FormLabel3{
         text-align: end;
         margin-left: 12%;
@@ -1367,11 +1769,59 @@ font-size: 55px;
         font-family: DINNextLTArabic, Cairo, sans-serif !important;
     }
     }
+    @media only screen and (min-width:810px) and (max-width:1080px){
+        .FormLabel3{
+            text-align: end;
+            margin-left: 4%;
+            margin-top: 1%;
+            color: #000;
+            font-size: 15px;
+            position: absolute;
+            font-weight: bolder;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:800px) and (max-width:1280px){
+            .FormLabel3{
+                text-align: end;
+                margin-left: 4%;
+                margin-top: 1%;
+                color: #000;
+                font-size: 15px;
+                position: absolute;
+                font-weight: bolder;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
 .form-new .Formcontrol3{
     width: 118%;
     margin-top: 20%;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .form-new .Formcontrol3{
+        width: 120%;
+        margin-top: 20%;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .form-new .Formcontrol3{
+            width: 133%;
+            margin-top: 20%;
+        }
+        }
+        @media only screen and (min-width:384px) and (max-width:854px){
+            .form-new .Formcontrol3{
+                width: 140%;
+                margin-top: 20%;
+            }
+            }
+    @media only screen and (min-width:412px) and (max-width:915px){
+        .form-new .Formcontrol3{
+            width: 152%;
+            margin-top: 20%;
+        }
+        }
+@media only screen and (min-width:480px) and (max-width:700px){
     .form-new .Formcontrol3{
         width: 160%;
         margin-top: 20%;
@@ -1384,7 +1834,27 @@ font-size: 55px;
     font-size: 14px;
     font-weight: 600;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .p-form1{
+        color: rgb(156 163 175 );
+        margin-top: 5%;
+        margin-left: 58%;
+        font-size: 13px;
+        font-weight: 600;
+        font-family: DINNextLTArabic, Cairo, sans-serif !important;
+    }
+    }
+    @media only screen and (min-width:412px) and (max-width:915px){
+        .p-form1{
+            color: rgb(156 163 175 );
+            margin-top: 5%;
+            margin-left: 68%;
+            font-size: 13px;
+            font-weight: 600;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+@media only screen and (min-width:480px) and (max-width:700px){
     .p-form1{
         color: rgb(156 163 175 );
         margin-top: 5%;
@@ -1394,6 +1864,28 @@ font-size: 55px;
         font-family: DINNextLTArabic, Cairo, sans-serif !important;
     }
     }
+    @media only screen and (min-width:810px) and (max-width:1080px){
+        .p-form1{
+            color: rgb(156 163 175 );
+            margin-top: 5%;
+            margin-left: 50%;
+            width: 180%;
+            font-size: 13px;
+            font-weight: 600;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:800px) and (max-width:1280px){
+            .p-form1{
+                color: rgb(156 163 175 );
+                margin-top: 5%;
+                margin-left: 50%;
+                width: 180%;
+                font-size: 13px;
+                font-weight: 600;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
 .FormLabel4{
     text-align: end;
     margin-left: -7%;
@@ -1403,7 +1895,55 @@ font-size: 55px;
     font-weight: bolder;
     position: absolute;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .FormLabel4{
+        text-align: end;
+        margin-left: -20%;
+        margin-top: 1%;
+        color: #000;
+        font-size: 15px;
+        position: absolute;
+        font-weight: bolder;
+        font-family: DINNextLTArabic, Cairo, sans-serif !important;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .FormLabel4{
+            text-align: end;
+            margin-left: -10%;
+            margin-top: 1%;
+            color: #000;
+            font-size: 15px;
+            position: absolute;
+            font-weight: bolder;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:384px) and (max-width:854px){
+            .FormLabel4{
+                text-align: end;
+                margin-left: -5%;
+                margin-top: 1%;
+                color: #000;
+                font-size: 15px;
+                position: absolute;
+                font-weight: bolder;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
+    @media only screen and (min-width:412px) and (max-width:915px){
+        .FormLabel4{
+            text-align: end;
+            margin-left: 2%;
+            margin-top: 1%;
+            color: #000;
+            font-size: 15px;
+            position: absolute;
+            font-weight: bolder;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+@media only screen and (min-width:480px) and (max-width:700px){
     .FormLabel4{
         text-align: end;
         margin-left: 5%;
@@ -1415,11 +1955,59 @@ font-size: 55px;
         font-family: DINNextLTArabic, Cairo, sans-serif !important;
     }
     }
+    @media only screen and (min-width:810px) and (max-width:1080px){
+        .FormLabel4{
+            text-align: end;
+            margin-left: 1%;
+            margin-top: 1%;
+            color: #000;
+            font-size: 15px;
+            position: absolute;
+            font-weight: bolder;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:800px) and (max-width:1280px){
+            .FormLabel4{
+                text-align: end;
+                margin-left: 1%;
+                margin-top: 1%;
+                color: #000;
+                font-size: 15px;
+                position: absolute;
+                font-weight: bolder;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
         .form-new  .Formcontrol4{
     width: 120%;
     margin-top: 20%;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .form-new .Formcontrol4{
+        width: 120%;
+        margin-top: 20%;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .form-new .Formcontrol4{
+            width: 133%;
+            margin-top: 20%;
+        }
+        }
+        @media only screen and (min-width:384px) and (max-width:854px){
+            .form-new .Formcontrol4{
+                width: 140%;
+                margin-top: 20%;
+            }
+            }
+    @media only screen and (min-width:412px) and (max-width:915px){
+        .form-new .Formcontrol4{
+            width: 152%;
+            margin-top: 20%;
+        }
+        }
+@media only screen and (min-width:480px) and (max-width:700px){
     .form-new .Formcontrol4{
         width: 160%;
         margin-top: 20%;
@@ -1434,7 +2022,55 @@ font-size: 55px;
     font-weight: bolder;
     position: absolute;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .FormLabel5{
+        text-align: end;
+        margin-left: -12%;
+        margin-top: 1%;
+        color: #000;
+        font-size: 15px;
+        position: absolute;
+        font-weight: bolder;
+        font-family: DINNextLTArabic, Cairo, sans-serif !important;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .FormLabel5{
+            text-align: end;
+            margin-left: -4%;
+            margin-top: 1%;
+            color: #000;
+            font-size: 15px;
+            position: absolute;
+            font-weight: bolder;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:384px) and (max-width:854px){
+            .FormLabel5{
+                text-align: end;
+                margin-left: 2%;
+                margin-top: 1%;
+                color: #000;
+                font-size: 15px;
+                position: absolute;
+                font-weight: bolder;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
+    @media only screen and (min-width:412px) and (max-width:912px){
+        .FormLabel5{
+            text-align: end;
+            margin-left: 8%;
+            margin-top: 1%;
+            color: #000;
+            font-size: 15px;
+            position: absolute;
+            font-weight: bolder;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+@media only screen and (min-width:480px) and (max-width:700px){
     .FormLabel5{
         text-align: end;
         margin-left: 10%;
@@ -1446,11 +2082,59 @@ font-size: 55px;
         font-family: DINNextLTArabic, Cairo, sans-serif !important;
     }
     }
+    @media only screen and (min-width:810px) and (max-width:1080px){
+        .FormLabel5{
+            text-align: end;
+            margin-left: 4%;
+            margin-top: 1%;
+            color: #000;
+            font-size: 15px;
+            position: absolute;
+            font-weight: bolder;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:800px) and (max-width:1280px){
+            .FormLabel5{
+                text-align: end;
+                margin-left: 4%;
+                margin-top: 1%;
+                color: #000;
+                font-size: 15px;
+                position: absolute;
+                font-weight: bolder;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
         .form-new  .Formcontrol5{
     width: 120%;
     margin-top: 20%;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .form-new .Formcontrol5{
+        width: 120%;
+        margin-top: 20%;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .form-new .Formcontrol5{
+            width: 133%;
+            margin-top: 20%;
+        }
+        }
+        @media only screen and (min-width:384px) and (max-width:854px){
+            .form-new .Formcontrol5{
+                width: 140%;
+                margin-top: 20%;
+            }
+            }
+    @media only screen and (min-width:412px) and (max-width:915px){
+        .form-new .Formcontrol5{
+            width: 152%;
+            margin-top: 20%;
+        }
+        }
+@media only screen and (min-width:480px) and (max-width:700px){
     .form-new .Formcontrol5{
         width: 160%;
         margin-top: 20%;
@@ -1465,7 +2149,55 @@ font-size: 55px;
     font-weight: bolder;
     position: absolute;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .FormLabel6{
+        text-align: end;
+        margin-left: -25%;
+        margin-top: 1%;
+        color: #000;
+        font-size: 15px;
+        position: absolute;
+        font-weight: bolder;
+        font-family: DINNextLTArabic, Cairo, sans-serif !important;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .FormLabel6{
+            text-align: end;
+            margin-left: -13%;
+            margin-top: 1%;
+            color: #000;
+            font-size: 15px;
+            position: absolute;
+            font-weight: bolder;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:384px) and (max-width:854px){
+            .FormLabel6{
+                text-align: end;
+                margin-left: -8%;
+                margin-top: 1%;
+                color: #000;
+                font-size: 15px;
+                position: absolute;
+                font-weight: bolder;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
+    @media only screen and (min-width:412px) and (max-width:915px){
+        .FormLabel6{
+            text-align: end;
+            margin-left: -2%;
+            margin-top: 1%;
+            color: #000;
+            font-size: 15px;
+            position: absolute;
+            font-weight: bolder;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+@media only screen and (min-width:480px) and (max-width:700px){
     .FormLabel6{
         text-align: end;
         margin-left: 2%;
@@ -1481,7 +2213,31 @@ font-size: 55px;
     width: 120%;
     margin-top: 20%;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .form-new .Formcontrol6{
+        width: 120%;
+        margin-top: 20%;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .form-new .Formcontrol6{
+            width: 133%;
+            margin-top: 20%;
+        }
+        }
+        @media only screen and (min-width:384px) and (max-width:854px){
+            .form-new .Formcontrol6{
+                width: 140%;
+                margin-top: 20%;
+            }
+            }
+    @media only screen and (min-width:412px) and (max-width:915px){
+        .form-new .Formcontrol6{
+            width: 152%;
+            margin-top: 20%;
+        }
+        }
+@media only screen and (min-width:480px) and (max-width:700px){
     .form-new .Formcontrol6{
         width: 160%;
         margin-top: 20%;
@@ -1542,7 +2298,19 @@ font-size: 55px;
     margin-left: 9% ;
     width: 70%;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .p-Sigin{
+        margin-top: 45%;
+        position: absolute;
+        color: rgb(0 173 187);
+        font-weight: 800;
+        font-size: 15px;
+        text-align: end;
+        margin-left: 10% ;
+        font-family: DINNextLTArabic, Cairo, sans-serif !important;
+    }
+    }
+@media only screen and (min-width:480px) and (max-width:700px){
     .p-Sigin{
         margin-top: 42%;
         position: absolute;
@@ -1565,6 +2333,17 @@ font-size: 55px;
     padding-top: 15%;
     padding-bottom: 3%;
 }
+@media only screen and (min-width:300px) and (max-width:480px){
+    .h3form-Sigin{
+        text-align: center;
+        margin-left: 5%;
+        color: #00a8be;
+        font-weight: 700;
+        font-size: 25px;
+        padding-top: 15%;
+        padding-bottom: 3%;
+    }
+    }
 .SiginLabel4{
     text-align: end;
     margin-left: -20%;
@@ -1575,7 +2354,60 @@ font-size: 55px;
     font-weight: 700;
     position: absolute;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+
+@media only screen and (min-width:300px) and (max-width:480px){
+    .SiginLabel4{
+        text-align: end;
+        margin-left: -50%;
+        margin-top: 1.5%;
+        color: #000;
+        font-size: 13px;
+        font-weight: bolder;
+        font-weight: 700;
+        position: absolute;
+        font-family: DINNextLTArabic, Cairo, sans-serif !important;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .SiginLabel4{
+            text-align: end;
+            margin-left: -36%;
+            margin-top: 1.5%;
+            color: #000;
+            font-size: 13px;
+            font-weight: bolder;
+            font-weight: 700;
+            position: absolute;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:384px) and (max-width:854px){
+            .SiginLabel4{
+                text-align: end;
+                margin-left: -30%;
+                margin-top: 1.5%;
+                color: #000;
+                font-size: 13px;
+                font-weight: bolder;
+                font-weight: 700;
+                position: absolute;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
+    @media only screen and (min-width:412px) and (max-width:915px){
+        .SiginLabel4{
+            text-align: end;
+            margin-left: -21%;
+            margin-top: 1.5%;
+            color: #000;
+            font-size: 13px;
+            font-weight: bolder;
+            font-weight: 700;
+            position: absolute;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+@media only screen and (min-width:480px) and (max-width:700px){
     .SiginLabel4{
         text-align: end;
         margin-left: -20%;
@@ -1588,6 +2420,32 @@ font-size: 55px;
         font-family: DINNextLTArabic, Cairo, sans-serif !important;
     }
     }
+    @media only screen and (min-width:810px) and (max-width:1080px){
+        .SiginLabel4{
+            text-align: end;
+            margin-left: -11%;
+            margin-top: 1.5%;
+            color: #000;
+            font-size: 13px;
+            font-weight: bolder;
+            font-weight: 700;
+            position: absolute;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:800px) and (max-width:1280px){
+            .SiginLabel4{
+                text-align: end;
+                margin-left: -11%;
+                margin-top: 1.5%;
+                color: #000;
+                font-size: 13px;
+                font-weight: bolder;
+                font-weight: 700;
+                position: absolute;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
 
 .divform  .Sigincontrol4{
     width: 150%;
@@ -1595,7 +2453,39 @@ font-size: 55px;
     margin-left: -20%;
     height: 45px;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .divform  .Sigincontrol4{
+        width: 110%;
+        margin-top: 25%;
+        margin-left: 6%;
+        height: 45px;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .divform  .Sigincontrol4{
+            width: 125%;
+            margin-top: 25%;
+            margin-left: 6%;
+            height: 45px;
+        }
+        }
+        @media only screen and (min-width:384px) and (max-width:854px){
+            .divform  .Sigincontrol4{
+                width: 135%;
+                margin-top: 25%;
+                margin-left: 6%;
+                height: 45px;
+            }
+            }
+    @media only screen and (min-width:412px) and (max-width:915px){
+        .divform  .Sigincontrol4{
+            width: 145%;
+            margin-top: 25%;
+            margin-left: 6%;
+            height: 45px;
+        }
+        }
+@media only screen and (min-width:480px) and (max-width:700px){
     .divform  .Sigincontrol4{
         width: 150%;
         margin-top: 25%;
@@ -1603,6 +2493,22 @@ font-size: 55px;
         height: 45px;
     }
     }
+    @media only screen and (min-width:810px) and (max-width:1080px){
+        .divform  .Sigincontrol4{
+            width: 190%;
+            margin-top: 25%;
+            margin-left: -35%;
+            height: 45px;
+        }
+        }
+        @media only screen and (min-width:800px) and (max-width:1280px){
+            .divform  .Sigincontrol4{
+                width: 190%;
+                margin-top: 25%;
+                margin-left: -35%;
+                height: 45px;
+            }
+            }
 .SiginLabel5{
     text-align: end;
     margin-left: -2%;
@@ -1613,7 +2519,59 @@ font-size: 55px;
     font-weight: 700;
     position: absolute;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .SiginLabel5{
+        text-align: end;
+        margin-left: -10%;
+        margin-top: 0.5%;
+        color: #000;
+        font-size: 13px;
+        font-weight: bolder;
+        font-weight: 700;
+        position: absolute;
+        font-family: DINNextLTArabic, Cairo, sans-serif !important;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .SiginLabel5{
+            text-align: end;
+            margin-left: -2%;
+            margin-top: 0.5%;
+            color: #000;
+            font-size: 13px;
+            font-weight: bolder;
+            font-weight: 700;
+            position: absolute;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:384px) and (max-width:854px){
+            .SiginLabel5{
+                text-align: end;
+                margin-left: 2%;
+                margin-top: 0.5%;
+                color: #000;
+                font-size: 13px;
+                font-weight: bolder;
+                font-weight: 700;
+                position: absolute;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
+    @media only screen and (min-width:412px) and (max-width:915px){
+        .SiginLabel5{
+            text-align: end;
+            margin-left: 10%;
+            margin-top: 0.5%;
+            color: #000;
+            font-size: 13px;
+            font-weight: bolder;
+            font-weight: 700;
+            position: absolute;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+@media only screen and (min-width:480px) and (max-width:700px){
     .SiginLabel5{
         text-align: end;
         margin-left: 11%;
@@ -1626,13 +2584,71 @@ font-size: 55px;
         font-family: DINNextLTArabic, Cairo, sans-serif !important;
     }
     }
-   .divform  .Sigincontrol5{
+    @media only screen and (min-width:810px) and (max-width:1080px){
+        .SiginLabel5{
+            text-align: end;
+            margin-left: 5%;
+            margin-top: 0.5%;
+            color: #000;
+            font-size: 13px;
+            font-weight: bolder;
+            font-weight: 700;
+            position: absolute;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+        }
+        }
+        @media only screen and (min-width:800px) and (max-width:1280px){
+            .SiginLabel5{
+                text-align: end;
+                margin-left: 5%;
+                margin-top: 0.5%;
+                color: #000;
+                font-size: 13px;
+                font-weight: bolder;
+                font-weight: 700;
+                position: absolute;
+                font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            }
+            }
+    .divform  .Sigincontrol5{
     width: 150%;
     margin-top: 20%;
     margin-left: -20%;
     height: 45px;
 }
-@media only screen and (min-width:300px) and (max-width:700px){
+@media only screen and (min-width:300px) and (max-width:480px){
+    .divform  .Sigincontrol5{
+        width: 110%;
+        margin-top: 25%;
+        margin-left: 6%;
+        height: 45px;
+    }
+    }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .divform  .Sigincontrol5{
+            width: 125%;
+            margin-top: 25%;
+            margin-left: 6%;
+            height: 45px;
+        }
+        }
+        @media only screen and (min-width:384px) and (max-width:854px){
+            .divform  .Sigincontrol5{
+                width: 135%;
+                margin-top: 25%;
+                margin-left: 6%;
+                height: 45px;
+            }
+            }
+    @media only screen and (min-width:412px) and (max-width:915px){
+        .divform  .Sigincontrol5{
+            width: 145%;
+            margin-top: 25%;
+            margin-left: 6%;
+            height: 45px;
+        }
+        }
+@media only screen and (min-width:480px) and (max-width:700px){
     .divform  .Sigincontrol5{
         width: 150%;
         margin-top: 25%;
@@ -1640,6 +2656,22 @@ font-size: 55px;
         height: 45px;
     }
     }
+    @media only screen and (min-width:810px) and (max-width:1080px){
+        .divform  .Sigincontrol5{
+            width: 190%;
+            margin-top: 25%;
+            margin-left: -35%;
+            height: 45px;
+        }
+        }
+        @media only screen and (min-width:800px) and (max-width:1280px){
+            .divform  .Sigincontrol5{
+                width: 190%;
+                margin-top: 25%;
+                margin-left: -35%;
+                height: 45px;
+            }
+            }
     .form-new  .sigin-sigin{
         background-color: #00a8be;
         border: none;
@@ -1836,6 +2868,18 @@ font-size: 55px;
         margin-bottom: 6%;
     }
     }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .Title-card3{
+            color: #ffffff;
+            margin-top: -45%;
+            margin-left: 48%;
+            width: 100%;
+            font-weight: 600;
+            font-size: 22px;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            margin-bottom: 6%;
+        }
+        }
     @media only screen and (min-width:700px) and (max-width:1100px){
         .Title-card3{
             color: #ffffff;
@@ -1946,6 +2990,18 @@ font-size: 55px;
         margin-bottom: 6%;
     }
     }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .cards-tracks  .card2-tracks   .Title-card2{
+            color: #ffffff;
+            margin-top: -45%;
+            margin-left: 1%;
+            width: 150%;
+            font-weight: 600;
+            font-size: 22px;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            margin-bottom: 6%;
+        }
+        }
     @media only screen and (min-width:700px) and (max-width:1100px){
         .cards-tracks  .card2-tracks   .Title-card2{
             color: #ffffff;
@@ -2055,6 +3111,17 @@ font-size: 55px;
         margin-bottom: 6%;
     }
     }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .cards-tracks  .card1-tracks    .Title-card1{
+            color: #ffffff;
+            margin-left: -10%;
+            width: 150%;
+            font-weight: 600;
+            font-size: 22px;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            margin-bottom: 6%;
+        }
+        }
     @media only screen and (min-width:700px) and (max-width:1100px){
         .cards-tracks  .card1-tracks    .Title-card1{
             color: #ffffff;
@@ -2191,6 +3258,18 @@ font-size: 55px;
         margin-bottom: 6%;
     }
     }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .Title-card4{
+            color: #ffffff;
+            margin-top: -45%;
+            margin-left: 25%;
+            width: 150%;
+            font-weight: 600;
+            font-size: 22px;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            margin-bottom: 6%;
+        }
+        }
     @media only screen and (min-width:700px) and (max-width:1100px){
         .Title-card4{
             color: #ffffff;
@@ -2303,6 +3382,18 @@ font-size: 55px;
         margin-bottom: 6%;
     }
     }
+    @media only screen and (min-width:360px) and (max-width:760px){
+        .Title-card5{
+            color: #ffffff;
+            margin-top: -45%;
+            margin-left: 70%;
+            width: 80%;
+            font-weight: 600;
+            font-size: 22px;
+            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+            margin-bottom: 6%;
+        }
+        }
     @media only screen and (min-width:700px) and (max-width:1100px){
         .Title-card5{
             color: #ffffff;
@@ -2550,6 +3641,18 @@ font-size: 55px;
                 margin-bottom: 6%;
             }
             }
+            @media only screen and (min-width:360px) and (max-width:760px){
+                .Title-card7{
+                    color: #ffffff;
+                    margin-top: -45%;
+                    margin-left: 20%;
+                    width: 150%;
+                    font-weight: 600;
+                    font-size: 22px;
+                    font-family: DINNextLTArabic, Cairo, sans-serif !important;
+                    margin-bottom: 6%;
+                }
+                }
             @media only screen and (min-width:700px) and (max-width:1100px){
                 .Title-card7{
                     color: #ffffff;
@@ -2662,6 +3765,19 @@ font-size: 55px;
                 margin-bottom: 6%;
             }
             }
+            @media only screen and (min-width:360px) and (max-width:760px){
+                .Title-card8{
+                    color: #ffffff;
+                    margin-top: -45%;
+                    margin-left: 40%;
+                    width: 150%;
+                    font-weight: 600;
+                    font-size: 22px;
+                    font-family: DINNextLTArabic, Cairo, sans-serif !important;
+                    margin-bottom: 6%;
+                }
+                }
+    
             @media only screen and (min-width:700px) and (max-width:1100px){
                 .Title-card8{
                     color: #ffffff;
@@ -2898,6 +4014,42 @@ font-size: 55px;
                 margin-bottom: 6%;
             }
             }
+            @media only screen and (min-width:360px) and (max-width:760px){
+                .Title-card10{
+                    color: #ffffff;
+                    margin-top: 1%;
+                    margin-left: 30%;
+                    width: 80%;
+                    font-weight: 600;
+                    font-size: 22px;
+                    font-family: DINNextLTArabic, Cairo, sans-serif !important;
+                    margin-bottom: 6%;
+                }
+                }
+                @media only screen and (min-width:810px) and (max-width:1080px){
+                    .Title-card10{
+                        color: #ffffff;
+                        margin-top: 1%;
+                        margin-left: 30%;
+                        width: 80%;
+                        font-weight: 600;
+                        font-size: 22px;
+                        font-family: DINNextLTArabic, Cairo, sans-serif !important;
+                        margin-bottom: 6%;
+                    }
+                    }
+                    @media only screen and (min-width:800px) and (max-width:1280px){
+                        .Title-card10{
+                            color: #ffffff;
+                            margin-top: 1%;
+                            margin-left: 30%;
+                            width: 80%;
+                            font-weight: 600;
+                            font-size: 22px;
+                            font-family: DINNextLTArabic, Cairo, sans-serif !important;
+                            margin-bottom: 6%;
+                        }
+                        }
         .Text-card10{
             line-height: 22px;
             mix-blend-mode: normal;
